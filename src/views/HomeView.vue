@@ -1,9 +1,12 @@
 <template>
   <div class="home">
     <div class="img">
-      <img alt="Vue logo" src="../assets/logo.png">
+      <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
     </div>
+    <div class="data">
        <DataComponent/>
+       </div>
+
   </div>
 </template>
 
@@ -21,5 +24,9 @@ export default defineComponent({
 <style scoped>
 .img {
   text-align: center;
+}
+
+.data {
+  margin-top: 20%;
 }
 </style>
