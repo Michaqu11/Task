@@ -41,7 +41,7 @@
   </div>
   <div class="form">
     <span id="form-title">Add new house</span>
-      <div>
+      <div id="form-model">
         <input type="radio" id="ground" value="ground" v-model="kindOfHouse" />
         <label for="ground" :style="{'margin-right':'5px'}">Ground</label>
 
@@ -228,12 +228,14 @@ export default defineComponent({
   }
   .input {
     margin-top:5px;
-     margin-bottom:5px;
+    margin-bottom:5px;
   }
   #form-title {
     font-size:medium;
     font-weight: bold;
     margin-bottom: 5px;
-
+  }
+  #form-model{
+    margin-top: 5px;
   }
 </style>
